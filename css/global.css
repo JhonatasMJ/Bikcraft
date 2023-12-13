@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+img[src$=".jpg"] /* Adiciona esse estilo apenas para imagens .jpg */ {
+    border-radius: 4px;
+}
+
+
+.container {
+    max-width: 1200px;
+    padding: 0px 20px 0px 20px;
+    margin-left: auto; /* Centralizar a lista */
+    margin-right: auto;
+}
+
+
+/* Botão */
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px; 
+    border-radius: 4px;
+    background: var(--gradiente);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    color: var(--cor-p5);
+    text-transform: uppercase;
+    font: 600 1.125rem/1.35 'Poppins', sans-serif;
+}
+
+.link {
+    display: inline-block;
+    color: var(--cor-p1);
+    font: 500 1.5rem/1.5 'Poppins', sans-serif;
+}
+    .link::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: currentColor /* pega a cor do pai */;
+    }
+
+    .link:hover {
+        color: var(--cor-0);
+    }
+
+.botao:hover {
+    background: linear-gradient( #FFB60d , #e59317);
+}
+
+
+@media (max-width:600px) {
+
+    .botao {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
+
+

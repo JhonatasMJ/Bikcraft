@@ -1,0 +1,62 @@
+.bicicletas-lista {
+    padding: 60px 0px 120px 0px;
+}
+
+.bicicletas-lista h2 {
+    margin-bottom: 40px; 
+}
+
+.bicicletas-lista ul {
+    display: flex;
+    gap: 40px;
+    padding: 0px 20px 20px 20px;
+    max-width: 1400px; /* Quebra de tamanho proposital */
+    margin-left: auto; /* Centralizar a lista */
+    margin-right: auto;
+    overflow-x: auto; /* Só aparece scroll aonde precisa */
+}
+
+.bicicletas-lista li { /* Scroll no mobile */
+    min-width: 280px;
+}
+
+.bicicletas-lista a {
+    display: block;
+}
+
+.bicicletas-lista img {
+    margin-bottom: 16px;
+}
+
+.bicicletas-lista h3 {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.bicicletas-lista h3::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+   display: inline-block;
+   margin-right: 8px;
+    transition: 0.2s;
+}
+
+.bicicletas-lista a:hover h3::before {
+    width: 24px;
+}
+
+.bicicletas-lista li span {
+    padding-left: 20px; /* Alinhar com o nome da bike */
+}
+
+@media (max-width:800px) {
+    .bicicletas-lista {
+        padding-bottom: 60px;
+    }
+    .bicicletas-lista ul {
+        gap: 20px;
+    }
+}
