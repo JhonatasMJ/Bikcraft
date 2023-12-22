@@ -57,6 +57,25 @@ img[src$=".jpg"] /* Adiciona esse estilo apenas para imagens .jpg */ {
     transition: 0.3s ease;
 }
 
+.botao.seta {
+    display: flex;
+    align-items: center;
+}
+
+.botao.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    margin-left: 12px;
+    background: url("../imgs/Icones/setinha.svg") no-repeat;
+    transition: 0.3s ease;
+}
+
+.botao.seta:hover::after {
+    transform: translateX(4px);
+}
+
 .secundario:hover {
     background: var(--cor-9);
 }

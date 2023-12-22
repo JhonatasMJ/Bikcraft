@@ -1,0 +1,42 @@
+.titulo-bg {
+    background-color: var(--cor-11);
+    padding: 60px 0px;
+}
+
+.titulo P {
+    margin-bottom: 4px;
+}
+
+.termos {
+    padding: 80px 0px;
+}
+
+.termos h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.termos p {
+    margin-bottom: 24px;
+    padding: 10px;
+  /*   max-width: 75ch; */
+}
+
+.termos p:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.termos p + h2 {
+    margin-top: 40px;
+}
+
+@media (max-width:800px) {
+    .titulo-bg {
+        padding: 40px 0px;
+    }
+    .titulo p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}
