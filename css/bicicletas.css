@@ -51,6 +51,12 @@
     height: 8px;
     background-color: var(--cor-p1);
     margin-bottom: 8px;
+    transition: 0.3s ease;
+}
+
+
+.bicicletas-conteudo h2:hover::before {
+    width: 24px;
 }
 
 .bicicletas-conteudo p {
