@@ -16,6 +16,10 @@
     overflow-x: auto; /* Só aparece scroll aonde precisa */
 }
 
+#bicicleta .bicicletas-lista ul {
+    padding: 0px 0px 20px 0px ;
+}
+
 .bicicletas-lista li { /* Scroll no mobile */
     min-width: 280px;
 }

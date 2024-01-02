@@ -13,7 +13,9 @@
 @import "/css/bicicletas.css";
 @import "/css/vantagens.css";
 @import "/css/perguntas.css";
-
+@import "/css/animacao.css";
+@import "/css/bicicletas-interna.css";
+@import "/css//seguro-interno.css";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
