@@ -7,6 +7,7 @@
     grid-template-columns: 1fr 1fr ;
     gap: 40px;
     padding: 60px 0px;
+    background: url("../imgs/decoradores/top-right.svg") no-repeat top 40px right 20px;
 }
 
 /* Colocar preço */

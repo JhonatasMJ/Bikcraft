@@ -17,6 +17,7 @@ a {
 img {
     max-width: 100%;
     display: block;
+    height: auto;
 }
 
 
@@ -32,6 +33,9 @@ img[src$=".jpg"] /* Adiciona esse estilo apenas para imagens .jpg */ {
     margin-right: auto;
 }
 
+.titulo {
+    background: url("../imgs/decoradores/top-right.svg") no-repeat top right 20px;
+}
 
 /* Botão */
 
