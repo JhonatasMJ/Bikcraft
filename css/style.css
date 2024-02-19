@@ -13,7 +13,6 @@
 @import "/css/bicicletas.css";
 @import "/css/vantagens.css";
 @import "/css/perguntas.css";
-@import "/css/animacao.css";
 @import "/css/bicicletas-interna.css";
 @import "/css//seguro-interno.css";
 @import "/css/contato.css";
@@ -21,9 +20,29 @@
 @import "/css/lojas.css";
 @import "/css/orcamento.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
+/* Animações */
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+  }
+  .js .fadeInUp {
+    transform: translate3d(0, 20px, 0);
+  }
+ .js .fadeInRight {
+    transform: translate3d(20px, 0, 0);
+  }
+  .js .fadeInLeft {
+    transform: translate3d(-20px, 0, 0);
+  }
+
+.js [data-anime] {
+    opacity: 0;
+  }
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
+  }
 
 
