@@ -5,8 +5,8 @@
 Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft. (Projeto de aulas do cursos de Front-End da Origamid)
 
 
-## 🛠 Linguagens Utilizadas até o momento
-HTML e CSS
+## 🛠 Linguagens Utilizadas
+HTML,CSS, JS
 
 
 ## Screenshots
